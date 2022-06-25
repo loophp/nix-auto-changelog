@@ -14,6 +14,12 @@ In your project directory, run:
 nix run github:loophp/nix-auto-changelog
 ```
 
+To generate the changelog for until a specific tag (`<tag>`):
+
+```shell
+nix run github:loophp/nix-auto-changelog -- -v <tag>
+```
+
 To see all the available options, run:
 
 ```shell
