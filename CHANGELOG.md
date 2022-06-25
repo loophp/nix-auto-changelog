@@ -5,10 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.2](https://github.com/loophp/nix-auto-changelog/compare/1.0.1...1.0.2)
+## [1.0.3](https://github.com/loophp/nix-auto-changelog/compare/1.0.2...1.0.3)
 
 ### Commits
 
+- ci: Update workflow for release. [`f3df980`](https://github.com/loophp/nix-auto-changelog/commit/f3df980d4f0fc3e907abacc9f9c45ec99fd1026c)
+
+## [1.0.2](https://github.com/loophp/nix-auto-changelog/compare/1.0.1...1.0.2) - 2022-06-25
+
+### Commits
+
+- docs: Add/update CHANGELOG. [`5c54787`](https://github.com/loophp/nix-auto-changelog/commit/5c5478798ec9acacc9fface56a72e8c64af3c812)
 - ci: Update release workflow [`d23de77`](https://github.com/loophp/nix-auto-changelog/commit/d23de7723e60cdafddb69364baee6ba0cfb1cf1f)
 
 ## [1.0.1](https://github.com/loophp/nix-auto-changelog/compare/1.0.0...1.0.1) - 2022-06-25
