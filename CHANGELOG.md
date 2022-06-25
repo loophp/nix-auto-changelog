@@ -5,10 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0](https://github.com/loophp/nix-auto-changelog/compare/0.0.1...1.0.0)
+## [1.0.1](https://github.com/loophp/nix-auto-changelog/compare/1.0.0...1.0.1)
 
 ### Commits
 
+- ci: Configure dependabot to watch nodejs files and versions. [`c338530`](https://github.com/loophp/nix-auto-changelog/commit/c338530ebdbdb8a8703d0e44e445da3ecc9576a6)
+- ci: Add Github workflow to automatically update `flake.lock` file. [`da12f0b`](https://github.com/loophp/nix-auto-changelog/commit/da12f0b2f1fb88f9d9ba2c12109533cbe4a1dd25)
+
+## [1.0.0](https://github.com/loophp/nix-auto-changelog/compare/0.0.1...1.0.0) - 2022-06-25
+
+### Commits
+
+- docs: Add/update CHANGELOG. [`42e89d2`](https://github.com/loophp/nix-auto-changelog/commit/42e89d2ec20cb55a1523d5c75c5b9a9336b17048)
 - docs: Update README. [`fb5024a`](https://github.com/loophp/nix-auto-changelog/commit/fb5024a03f55d5f80182177d5023c78120da8fac)
 - ci: Add workflow for release. [`785b80c`](https://github.com/loophp/nix-auto-changelog/commit/785b80c6597a2ca820d64b64b6fa87297b9c2d2b)
 - docs: Add/update CHANGELOG. [`6acda06`](https://github.com/loophp/nix-auto-changelog/commit/6acda0649cda9648a10080d6c12e65f0cbd7ffd8)
