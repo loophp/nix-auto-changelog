@@ -1,12 +1,17 @@
 # Nix Auto Changelog
 
-This flake provides run [auto-changelog][auto-changelog homepage], a NodeJS tool
-for generating a changelog from git tags and commit history.
+This [flake][nix flake] provides run [auto-changelog][auto-changelog homepage],
+a NodeJS tool for generating a changelog from git tags and commit history.
 
-The idea behind this tool is to have an up-and-running tool to generate a
+The idea behind this tool is to have a quick up-and-running tool to generate a
 changelog using [Nix][nix homepage].
 
 ## Usage
+
+While being extremely stable for years, "[flake][nix flake]" is an upcoming
+feature of the Nix package manager. In order to use it, you must explicitly
+enable it, please check the documentation to enable it, this is currently an
+opt-in option.
 
 In your project directory, run:
 
@@ -63,6 +68,7 @@ See [CHANGELOG.md][changelog file] for a changelog based on [git commits][github
 
 For more detailed changelogs, please check [the release changelogs][github release changelogs].
 
+[nix flake]: https://nixos.wiki/wiki/Flakes
 [sponsor github]: https://img.shields.io/badge/Sponsor-Github-brightgreen.svg?style=flat-square
 [sponsor github link]: https://github.com/sponsors/drupol
 [nix homepage]: https://nixos.org/
