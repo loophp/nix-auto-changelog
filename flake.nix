@@ -35,6 +35,16 @@
         packages = flake-utils.lib.flattenTree {
           default = auto-changelog;
         };
+
+        devShells = {
+            default = pkgs.mkShell {
+                name = "auto-changelog";
+
+                buildInputs = [
+                    self.packages.${system}.default
+                ];
+            };
+        };
       }
     );
 
