@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Commits
 
+- fix: Add default devShell. [`1f6c6b3`](https://github.com/loophp/nix-auto-changelog/commit/1f6c6b34e4c1ffc73cb83d25e25c55b87a91064b)
+- docs: Add/update CHANGELOG. [`45f41b8`](https://github.com/loophp/nix-auto-changelog/commit/45f41b838850559a6852f660a84228f845f319be)
 - fix: Update binary filename. [`3c345c1`](https://github.com/loophp/nix-auto-changelog/commit/3c345c18cca08b452b3df57a8ca9c53adac36cae)
 - doc: Update README. [`5d0e30a`](https://github.com/loophp/nix-auto-changelog/commit/5d0e30aeecf200648f662fdbcdc38b51b413bb4c)
 
