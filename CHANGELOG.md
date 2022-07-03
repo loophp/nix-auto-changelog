@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/loophp/nix-auto-changelog/compare/1.0.3...HEAD)
+## [1.0.4](https://github.com/loophp/nix-auto-changelog/compare/1.0.3...1.0.4)
 
 ### Merged
 
@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Commits
 
+- Add dev environment and `.envrc` config. [`9d5dad2`](https://github.com/loophp/nix-auto-changelog/commit/9d5dad29b96154aaba2a8ff652f4e959a16a1176)
+- docs: Add/update CHANGELOG. [`3b89760`](https://github.com/loophp/nix-auto-changelog/commit/3b89760403e1f11d5841eddf7fb0081c95ebd1df)
 - fix: Add default devShell. [`1f6c6b3`](https://github.com/loophp/nix-auto-changelog/commit/1f6c6b34e4c1ffc73cb83d25e25c55b87a91064b)
 - docs: Add/update CHANGELOG. [`45f41b8`](https://github.com/loophp/nix-auto-changelog/commit/45f41b838850559a6852f660a84228f845f319be)
 - fix: Update binary filename. [`3c345c1`](https://github.com/loophp/nix-auto-changelog/commit/3c345c18cca08b452b3df57a8ca9c53adac36cae)
