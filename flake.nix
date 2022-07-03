@@ -24,7 +24,8 @@
           postInstall = "ln -s $out/libexec/nix-auto-changelog/node_modules/.bin/auto-changelog $out/bin/auto-changelog";
         };
 
-      in {
+      in
+      {
         apps = flake-utils.lib.flattenTree {
           default = {
             type = "app";
@@ -37,13 +38,23 @@
         };
 
         devShells = {
-            default = pkgs.mkShell {
-                name = "auto-changelog";
+          default = pkgs.mkShell {
+            name = "auto-changelog";
 
-                buildInputs = [
-                    self.packages.${system}.default
-                ];
-            };
+            buildInputs = [
+              self.packages.${system}.default
+            ];
+          };
+
+          dev = pkgs.mkShell {
+            name = "auto-changelog-dev";
+
+            buildInputs = [
+              self.packages.${system}.default
+              pkgs.nixpkgs-fmt
+              pkgs.nixfmt
+            ];
+          };
         };
       }
     );
