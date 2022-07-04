@@ -5,7 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.4](https://github.com/loophp/nix-auto-changelog/compare/1.0.3...1.0.4)
+## [1.0.5](https://github.com/loophp/nix-auto-changelog/compare/1.0.4...1.0.5)
+
+### Commits
+
+- Update flake.lock file. [`eabe062`](https://github.com/loophp/nix-auto-changelog/commit/eabe062750e0ece28b1e3a5a4121d6ed1bfcdf80)
+- remove package-lock.json. [`1eab700`](https://github.com/loophp/nix-auto-changelog/commit/1eab700a4f7eb34a1701da7998f3677b44873af5)
+- chore: Update .gitignore. [`6412fdc`](https://github.com/loophp/nix-auto-changelog/commit/6412fdcdbb346169dc27d8a66116f7447483fac7)
+- fix: Fix `nix run ...` [`3859a3c`](https://github.com/loophp/nix-auto-changelog/commit/3859a3c52adf39e1a333b89064cc39e1c389be6d)
+
+## [1.0.4](https://github.com/loophp/nix-auto-changelog/compare/1.0.3...1.0.4) - 2022-07-04
 
 ### Merged
 
@@ -13,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Commits
 
+- docs: Update CHANGELOG. [`9c235d9`](https://github.com/loophp/nix-auto-changelog/commit/9c235d9d5a5b035a02b8fa270ce69a2aa7517a8d)
 - Add dev environment and `.envrc` config. [`9d5dad2`](https://github.com/loophp/nix-auto-changelog/commit/9d5dad29b96154aaba2a8ff652f4e959a16a1176)
 - docs: Add/update CHANGELOG. [`3b89760`](https://github.com/loophp/nix-auto-changelog/commit/3b89760403e1f11d5841eddf7fb0081c95ebd1df)
 - fix: Add default devShell. [`1f6c6b3`](https://github.com/loophp/nix-auto-changelog/commit/1f6c6b34e4c1ffc73cb83d25e25c55b87a91064b)
