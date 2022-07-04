@@ -21,7 +21,11 @@
           packageJSON = ./package.json;
           yarnLock = ./yarn.lock;
           yarnNix = ./yarn.nix;
-          postInstall = "ln -s $out/libexec/nix-auto-changelog/node_modules/.bin/auto-changelog $out/bin/auto-changelog";
+          publishBinsFor = [
+            "auto-changelog"
+          ];
+          # TODO: Find a way to get rid of that line.
+          postInstall = "ln -s $out/libexec/nix-auto-changelog/node_modules/.bin/auto-changelog $out/bin/nix-auto-changelog";
         };
 
       in
