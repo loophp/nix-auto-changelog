@@ -30,13 +30,6 @@
 
       in
       {
-        apps = flake-utils.lib.flattenTree {
-          default = {
-            type = "app";
-            program = "${self.packages.${system}.default}";
-          };
-        };
-
         packages = flake-utils.lib.flattenTree {
           default = auto-changelog;
         };
