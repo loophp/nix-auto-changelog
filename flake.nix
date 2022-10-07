@@ -26,19 +26,16 @@
           # TODO: Find a way to get rid of that line.
           postInstall = "ln -s $out/libexec/nix-auto-changelog/node_modules/.bin/auto-changelog $out/bin/nix-auto-changelog";
         };
-
       in
       {
-        packages = flake-utils.lib.flattenTree {
-          default = auto-changelog;
-        };
+        packages.default = auto-changelog;
 
         devShells = {
-          default = pkgs.mkShell {
+          default = pkgs.mkShellNoCC {
             name = "auto-changelog";
 
             buildInputs = [
-              self.packages.${system}.default
+              auto-changelog
             ];
           };
 
@@ -46,7 +43,7 @@
             name = "auto-changelog-dev";
 
             buildInputs = [
-              self.packages.${system}.default
+              auto-changelog
               pkgs.nixpkgs-fmt
               pkgs.nixfmt
             ];
