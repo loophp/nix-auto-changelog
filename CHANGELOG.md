@@ -5,10 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.5](https://github.com/loophp/nix-auto-changelog/compare/1.0.4...1.0.5)
+## [Unreleased](https://github.com/loophp/nix-auto-changelog/compare/1.0.5...HEAD)
 
 ### Commits
 
+- refactor: simplify [`4d5206f`](https://github.com/loophp/nix-auto-changelog/commit/4d5206ffc062917d0ef9161d4d82fb1b88496cf4)
+- fix: get rid of warning when loading the environment [`31ab989`](https://github.com/loophp/nix-auto-changelog/commit/31ab9895ce090a14503e27fc75084137b2e9c2c2)
+- flake.lock: Update [`cc9196d`](https://github.com/loophp/nix-auto-changelog/commit/cc9196dc3fa7e5cd6ac4e37b58dc33531195e496)
+- flake.lock: Update [`3553caf`](https://github.com/loophp/nix-auto-changelog/commit/3553cafacc3422c93eddbf31fbcec5ba607979d1)
+- flake.lock: Update [`978a8e5`](https://github.com/loophp/nix-auto-changelog/commit/978a8e52d96cf8cf89268007a5de0de5284d7ccb)
+- remove `apps` output. [`1144101`](https://github.com/loophp/nix-auto-changelog/commit/1144101ec04a2bd38a7364fb904396332672d962)
+- ci: Enable monthly automatic update of flake.lock file. [`75078f9`](https://github.com/loophp/nix-auto-changelog/commit/75078f9f525ca17fdf8234be11bb5b5e734ee796)
+
+## [1.0.5](https://github.com/loophp/nix-auto-changelog/compare/1.0.4...1.0.5) - 2022-07-05
+
+### Commits
+
+- docs: Update CHANGELOG. [`6f47efb`](https://github.com/loophp/nix-auto-changelog/commit/6f47efbf4cd83abfddf3c6a6f83d612bab24c726)
 - Update flake.lock file. [`eabe062`](https://github.com/loophp/nix-auto-changelog/commit/eabe062750e0ece28b1e3a5a4121d6ed1bfcdf80)
 - remove package-lock.json. [`1eab700`](https://github.com/loophp/nix-auto-changelog/commit/1eab700a4f7eb34a1701da7998f3677b44873af5)
 - chore: Update .gitignore. [`6412fdc`](https://github.com/loophp/nix-auto-changelog/commit/6412fdcdbb346169dc27d8a66116f7447483fac7)
