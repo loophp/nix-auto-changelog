@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Commits
 
+- refactor: simplification [`8392bb0`](https://github.com/loophp/nix-auto-changelog/commit/8392bb03e61dc807ee523d840ad9854b634d8ea9)
+- docs: Update changelog [`2c6d985`](https://github.com/loophp/nix-auto-changelog/commit/2c6d985119efc46df3790b9ee5a5953874636723)
 - refactor: simplify [`4d5206f`](https://github.com/loophp/nix-auto-changelog/commit/4d5206ffc062917d0ef9161d4d82fb1b88496cf4)
 - fix: get rid of warning when loading the environment [`31ab989`](https://github.com/loophp/nix-auto-changelog/commit/31ab9895ce090a14503e27fc75084137b2e9c2c2)
 - flake.lock: Update [`cc9196d`](https://github.com/loophp/nix-auto-changelog/commit/cc9196dc3fa7e5cd6ac4e37b58dc33531195e496)
