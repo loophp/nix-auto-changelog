@@ -8,6 +8,6 @@
   "author": "Pol Dellaiera",
   "license": "MIT",
   "dependencies": {
-    "auto-changelog": "^2.4.0"
+    "auto-changelog": "^2.5.0"
   }
 }
